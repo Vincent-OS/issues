@@ -69,17 +69,17 @@ body:
     validations:
       required: true
   - type: input
-      id: gpu
-      attributes:
-        label: GPU
-      validations:
-        required: true
+    id: gpu
+    attributes:
+      label: GPU
+    validations:
+      required: true
   - type: input
-      id: ram
-      attributes:
-        label: RAM
-      validations:
-        required: true
+    id: ram
+    attributes:
+      label: RAM
+    validations:
+      required: true
   - type: dropdown
     id: graphical
     attributes:
