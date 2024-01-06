@@ -16,14 +16,6 @@ body:
           - If possible, include screenshots of the problems
           - If the issue is from a third-part software, do not post here. Post on their bug report page.
           - For Kernel problem, post here: https://github.com/Vincent-OS/linux/issues -->
-  - type: checkboxes
-    id: issue
-    attributes:
-      label: Is this Issue unique?
-      options:
-        - I checked if there is other issues related to my issues and I don't saw it.
-    validations:
-      required: true
   - type: textarea
     id: describe
     attributes:
