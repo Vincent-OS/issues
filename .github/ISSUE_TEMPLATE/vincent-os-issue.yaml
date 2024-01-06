@@ -7,9 +7,9 @@ assignees:
 
 body:
   - type: markdown
-  attributes:
-    value: |
-    <!-- **!!!PLEASE READ THIS BEFORE SUBMITTING A ISSUE!!!**
+    attributes:
+      value: |
+        <!-- **!!!PLEASE READ THIS BEFORE SUBMITTING A ISSUE!!!**
           When submitting a issue:
           - Please search to avoid duplicate.
           - Detail as much as you can your problem.
