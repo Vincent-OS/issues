@@ -22,30 +22,26 @@ body:
       label: Is this Issue unique?
       options:
         - label: I checked if there is other issues related to my issues and I don't saw it.
-      validations:
         required: true
   - type: textarea
     id: describe
     attributes:
       label: Describe the problem
       placeholder: A clear and concise description of what the bug is.
-      validations:
-        required: true
+      required: true
   - type: textarea
     id: reproduce
     attributes:
       label: How to Reproduce the problem?
       description: Steps to reproduce the behavior
-      validations:
-        required: true
+      required: true
   - type: textarea
     id: screenshot
     attributes:
       label: Screenshot
       description: If applicable, add screenshots to help explain your problem.
       placeholder: Past your screenshot here.
-      validations:
-        required: false
+      required: false
   - type: markdown
     id: computer
     attributes:
@@ -55,32 +51,27 @@ body:
     id: vincentos-version
     attributes:
       label: Vincent OS version
-      validations:
-        required: true
+      required: true
   - type: input
     id: kde
     attributes:
       label: KDE version
-      validations:
-        required: true
+      required: true
   - type: input
     id: cpu
     attributes:
       label: CPU
-      validations:
-        required: true
+      required: true
   - type: input
     id: gpu
     attributes:
       label: GPU
-      validations:
-        required: true
+      required: true
   - type: input
     id: ram
     attributes:
       label: RAM
-      validations:
-        required: true
+      required: true
   - type: dropdown
     id: graphical
     attributes:
@@ -90,8 +81,7 @@ body:
       options:
         - X11
         - Wayland
-      validations:
-        required: true
+      required: true
   - type: textarea
     id: additional
     attributes:
