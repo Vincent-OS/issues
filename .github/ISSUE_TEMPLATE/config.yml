@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Vincent OS Kernel Issue
+    url: https://github.com/Vincent-OS/linux/issues
+  - name: Vincent OS Repo Issue
+    url: https://github.com/Vincent-OS/repo/issues
+  - name: Vincent OS Installer Issue
+    url: https://github.com/Vincent-OS/calamares/issues
+  - name: WebSM Issue
+    url: https://github.com/v38armageddon/WebSM/issues
