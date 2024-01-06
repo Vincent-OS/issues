@@ -21,7 +21,7 @@ body:
     attributes:
       label: Is this Issue unique?
       options:
-        label: I checked if there is other issues related to my issues and I don't saw it.
+        - I checked if there is other issues related to my issues and I don't saw it.
     validations:
       required: true
   - type: textarea
