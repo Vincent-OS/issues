@@ -57,11 +57,11 @@ body:
     validactions:
       required: true
   - type: input
-      id: kde
-      attributes:
-        label: KDE version
-      validactions:
-        required: true
+    id: kde
+    attributes:
+      label: KDE version
+    validations:
+      required: true
   - type: input
       id: cpu
       attributes:
