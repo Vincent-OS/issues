@@ -1,0 +1,96 @@
+name: Vincent OS Issue
+description: For any issues about the Vincent OS version.
+title: "[VINCENT OS] "
+labels: bug, vincent-os
+assignees:
+  - v38armageddon
+
+body:
+  - type: markdown
+  attributes:
+    value: |
+    <!-- **!!!PLEASE READ THIS BEFORE SUBMITTING A ISSUE!!!**
+          When submitting a issue:
+          - Please search to avoid duplicate.
+          - Detail as much as you can your problem.
+          - If possible, include screenshots of the problems
+          - If the issue is from a third-part software, do not post here. Post on their bug report page.
+          - For Kernel problem, post here: https://github.com/Vincent-OS/linux/issues
+    -->
+  - type: checkboxes
+    id: issue-unique
+    attributes:
+      label: Is this Issue unique?
+      options:
+        - label: I checked if there is other issues related to my issues and I don't saw it.
+          required: true
+  - type: textarea
+    id: describe-problem
+    attributes:
+      label: Describe the problem
+      placeholder: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to Reproduce the problem?
+      description: Steps to reproduce the behavior:
+    validactions:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: If applicable, add screenshots to help explain your problem.
+      placeholder: Past your screenshot here.
+    validactions:
+      required: false
+  - type: markdown
+    id: computer-info
+    attributes:
+      value: |
+        ## Your computer information
+  - type: input
+    id: vincentos-version
+    attributes:
+      label: Vincent OS version:
+    validactions:
+      required: true
+  - type: input
+      id: kde-version
+      attributes:
+        label: KDE version:
+      validactions:
+        required: true
+  - type: input
+      id: cpu
+      attributes:
+        label: CPU:
+      validactions:
+        required: true
+  - type: input
+      id: gpu
+      attributes:
+        label: GPU:
+      validactions:
+        required: true
+  - type: input
+      id: ram
+      attributes:
+        label: RAM:
+      validactions:
+        required: true
+  - type: dropdown
+    id: graphical-session
+    attributes:
+      label: Graphical Session
+      description: If you don't know about your graphical session, open a terminal and type: echo $XDG_SESSION_TYPE
+      options:
+        - X11
+        - Wayland
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      placeholder: Add any other context about the problem here.
