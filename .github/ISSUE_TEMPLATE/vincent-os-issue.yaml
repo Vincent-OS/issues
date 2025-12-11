@@ -1,9 +1,9 @@
 name: Vincent OS Issue
 description: For any issues about the Vincent OS version.
-title: "[VINCENT OS] "
+title: "[BUG] "
 labels: bug, vincent-os
 assignees:
-  - v38armageddon
+  - florian-at-v38armageddon
 
 body:
   - type: markdown
@@ -14,8 +14,7 @@ body:
           - Please search to avoid duplicate.
           - Detail as much as you can your problem.
           - If possible, include screenshots of the problems
-          - If the issue is from a third-part software, do not post here. Post on their bug report page.
-          - For Kernel problem, post here: https://github.com/Vincent-OS/linux/issues -->
+          - If the issue is from a third-part software, do not post here. Post on their bug report page. -->
   - type: textarea
     id: describe
     attributes:
@@ -38,50 +37,29 @@ body:
       placeholder: Past your screenshot here.
     validations:
       required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: logs
+      description: If applicable, add logs to be able to reproduce the issue.
+      placeholder: Past your logs here via a .log file or full text.
   - type: markdown
     id: computer
     attributes:
       value: |
         ## Your computer information
   - type: input
-    id: vincentos-version
+    id: informations
     attributes:
-      label: Vincent OS version
+      label: Your setup informations
+      description: Provide your computer informations by selecting 'Copy details' in 'About this system' from the Info Center. 
     validations:
       required: true
   - type: input
-    id: kde
+    id: edition
     attributes:
-      label: KDE version
-    validations:
-      required: true
-  - type: input
-    id: cpu
-    attributes:
-      label: CPU
-    validations:
-      required: true
-  - type: input
-    id: gpu
-    attributes:
-      label: GPU
-    validations:
-      required: true
-  - type: input
-    id: ram
-    attributes:
-      label: RAM
-    validations:
-      required: true
-  - type: dropdown
-    id: graphical
-    attributes:
-      label: Graphical Session
-      description: |
-        If you don't know about your graphical session, open a terminal and type: echo $XDG_SESSION_TYPE
-      options:
-        - X11
-        - Wayland
+      label: Vincent OS Edition
+      placeholder: e.g. Vincent OS Standard Edition
     validations:
       required: true
   - type: textarea

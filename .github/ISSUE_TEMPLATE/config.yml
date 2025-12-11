@@ -1,8 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Vincent OS Repo Issue
-    url: https://github.com/Vincent-OS/repo/issues
-    about: All Issues about Vincent OS Repo and packages
+  - name: Vincent OS Core LivePatch Issue
+    url: https://github.com/Vincent-OS/clpctl/issues/new
+    about: All issues about the Core LivePatch system
   - name: Vincent OS Installer Issue
-    url: https://github.com/Vincent-OS/calamares-settings/issues
-    about: All Issues about the Vincent OS Installer
+    url: https://github.com/Vincent-OS/calamares-settings/issues/new
+    about: All issues about the Vincent OS Installer (Calamares)
+  - name: Vincent OS Repo Issue
+    url: https://github.com/Vincent-OS/repo/issues/new
+    about: All issues about Vincent OS Repository and packages configuration
