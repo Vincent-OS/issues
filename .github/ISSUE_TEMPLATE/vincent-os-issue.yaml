@@ -6,15 +6,6 @@ assignees:
   - florian-at-v38armageddon
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        <!-- **!!!PLEASE READ THIS BEFORE SUBMITTING A ISSUE!!!**
-          When submitting a issue:
-          - Please search to avoid duplicate.
-          - Detail as much as you can your problem.
-          - If possible, include screenshots of the problems
-          - If the issue is from a third-part software, do not post here. Post on their bug report page. -->
   - type: textarea
     id: describe
     attributes:
@@ -40,15 +31,17 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: logs
+      label: Logs
       description: If applicable, add logs to be able to reproduce the issue.
       placeholder: Past your logs here via a .log file or full text.
+    validations:
+      required: false
   - type: markdown
     id: computer
     attributes:
       value: |
         ## Your computer information
-  - type: input
+  - type: textarea
     id: informations
     attributes:
       label: Your setup informations
@@ -67,3 +60,5 @@ body:
     attributes:
       label: Additional context
       placeholder: Add any other context about the problem here.
+    validations:
+      required: false
